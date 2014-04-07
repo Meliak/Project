@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+
+#login
+{
+	width:35em;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-color: #B00100;
+	border:1px solid #CCC;
+	margin:0 auto;
+}
