@@ -5,7 +5,6 @@ ruby '2.1.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-# Use postgresql as the database for Active Record
 gem 'pg'
 
 # Use SCSS for stylesheets
@@ -43,7 +42,6 @@ group :test do
 end
 
 group :production do
-	gem 'g', '0.15.1'
 	gem 'rails_12factor', '0.0.2'
 end
 
